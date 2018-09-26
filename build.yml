@@ -7,7 +7,7 @@ image_resource:
 
 run:
   path: /bin/bash
-  args: ["-c", "ls -alR && bash pipeline/gitgo.sh && bash pipeline/rungo.sh"]
+  args: ["-c", "ls -alR && bash pipeline/gitgo.sh"]
 
 inputs:
   - name: pipeline
