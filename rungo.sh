@@ -1,3 +1,3 @@
 #!/bin/sh
 
-PATH=$PATH:/usr/local/go/bin go run pipeline/main.go
+PATH=$PATH:/usr/local/go/bin go test main_test.go main.go && go run main.go

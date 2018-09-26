@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
-func main() {
-        fmt.Println("Hello, world! (from Golang)")
+func GetHelloWorld() string {
+        return "Hello, world! (from Golang)"
 }
+
+func main() {
+        fmt.Println(GetHelloWorld())
+}
+
